@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+
+}
+
+  body{
+      background-color: palegoldenrod;
+      
+    }
+    header {
+        background-color: peachpuff;
+        height: 70px;
+    }
+    main, header{
+        margin-left: 400px;
+        width: 650px;
+        
+    }
+    /* Create two unequal columns that floats next to each other */
+    .column {
+    float: left;
+    padding: 0px;
+    height: 600px;
+  }
+  
+  .left {
+    width: 75%;
+    background-color:#FFF;
+  }
+  
+  .right {
+    width: 25%;
+    background-color:#CCC;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+footer{
+    background-color: rgb(88, 85, 85);
+    color: #FFF;
+    text-align: center;
+    height: 30px;
+}

@@ -1,0 +1,29 @@
+
+body{
+    background-color:lightgoldenrodyellow
+}
+
+div{
+    margin: 15px;
+    padding: 10px;
+    width: 830px;
+    background-color: #FFF;
+    border: 1px solid #333;
+}
+.div_3 {
+    color: orangered;
+    border: 1px solid;
+    
+}
+
+#last_p {
+    border: 3px dotted ;
+}
+
+.ipsm{
+    background-color: lightsalmon;
+}
+
+.quis {
+    background-color: navajowhite;
+}

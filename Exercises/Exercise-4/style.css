@@ -1,0 +1,36 @@
+*{
+    background-color: orchid;
+
+}
+
+div{
+    width: 225px;
+    background-color: #d6d1d1;
+    margin: 4px;
+    height: 120px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+p {
+    width: 950px;
+    height: 60px;
+    font-weight: bold;
+    border-top: 3px solid #333;
+    border-bottom: 3px solid #333;
+    overflow-y: scroll;
+}
+
+
+/* ============================================== */
+/*
+#div_1 {
+    width: 900px;
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 10px;
+    column-rule-color: orchid;
+    background-color: #CCC;
+}
+*/

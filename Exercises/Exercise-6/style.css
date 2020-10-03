@@ -1,0 +1,18 @@
+#div_Odd{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    background-color: #FF0;
+    border: 2px solid;
+}
+#div_Even{
+    position:relative;
+    top: 25px;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    background-color: #080;
+    border: 2px solid;
+}

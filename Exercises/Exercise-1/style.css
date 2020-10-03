@@ -1,0 +1,21 @@
+*{
+    width: 1010px;
+    font-size: large;
+}
+
+#p_1{
+    color:coral;
+
+}
+
+span{
+    font-weight: bold;
+}
+
+.p_bac{
+    background-image: url(https://i.pinimg.com/originals/3a/ff/a4/3affa4e523e653d3b8d4ebeb5d4aac34.jpg);
+    /* background-image: url(https://bit.ly/fcc-relaxing-cat); */
+    background-repeat: no-repeat;
+    background-size: 1010px;
+
+}
