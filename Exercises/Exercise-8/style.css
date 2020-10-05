@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+.container
+{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.item1, .item2{
+  text-align: center;
+  height: 696px;
+  color: #FFF;
+}
+
+.item1{
+  background-color: orange;
+}
+
+.item2{
+  background-color: blue;
+}
+
+span {
+  font-size: 50px;
+  position: relative;
+  top: 50%;
+}
