@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  border: 5px solid rgb(233, 146, 33);
+}
+
+.container > div {
+  width: 353px;
+  text-align: center;
+  font-size: 65px;
+  color: #FFF;
+}
+
+.item1 {
+  background-color:green;
+}
+
+.item2 {
+  background-color:rgb(49, 94, 216);
+}
+
+.item3 {
+  background-color:rgb(209, 25, 226);
+}
+
+.item4 {
+  background-color:rgb(70, 71, 70);
+}
+
+.item5 {
+  background-color: yellow;
+}
+
+.item6 {
+  background-color: rgb(241, 146, 21);
+}
+
+.item7 {
+  background-color:red;
+}
+
+.item8 {
+  background-color:#CCC;
+}
+
+.item9 {
+  background-color:rgb(136, 233, 136);
+}
+
+.item10 {
+  background-color:greenyellow;
+}

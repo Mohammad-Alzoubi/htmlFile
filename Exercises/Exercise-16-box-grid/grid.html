@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1.5rem;
+        }
+        .grid2{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 1.5rem;
+        }
+
+        .item{
+            padding: 3rem;
+            background: #f4f4f4;
+            border: 1px solid #333;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+
+        .item:first-child{
+            background: coral;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+        .item:nth-child(2){
+            background: blue;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        
+        .item:nth-child(3){
+            background: rgb(86, 86, 206);
+        }
+        
+        .item:nth-child(4),.item:nth-child(5),.item:nth-child(6){
+            background:#FF0;
+        }
+        
+        
+        .item:nth-child(7){
+            background: rgb(86, 86, 206);
+        }
+        
+        .item:nth-child(8){
+            background: blue;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        /* Start item2 */
+        .item2{
+            margin-top: 1.5rem;
+            padding: 3rem;
+            background: #f4f4f4;
+            border: 1px solid #333;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        .item2:nth-child(1),.item2:nth-child(2),.item2:nth-child(3),.item2:nth-child(4){
+            background:orange;
+        }
+
+        .item2:last-child{
+            background: coral;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="grid">
+            <div class="item">item 1</div>
+            <div class="item">item 2</div>
+            <div class="item">item 3</div>
+            <div class="item">item 4</div>
+            <div class="item">item 5</div>
+            <div class="item">item 6</div>
+            <div class="item">item 7</div>
+            <div class="item">item 8</div>    
+        </div>
+        <div class="grid2">
+            <div class="item2">item 9</div>
+            <div class="item2">item 10</div>
+            <div class="item2">item 11</div>
+            <div class="item2">item 12</div>
+            <div class="item2">item 13</div> 
+        </div>
+    </div>
+</body>
+</html>
