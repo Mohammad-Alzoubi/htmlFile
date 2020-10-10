@@ -1,0 +1,51 @@
+$colum-gap: 5px;
+$row-gap: 5px;
+$bg-item: rgb(255, 209, 6);
+$color-item: #FFF;
+$padding-item: 1.3rem; 
+
+
+*{
+    box-sizing: border-box;
+}
+.grid-all{
+    display: grid;
+    grid-row-gap: $row-gap;
+}
+.grid2,.grid3,.grid4,.grid5,.grid6{
+    grid-column-gap: $colum-gap;
+
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid5{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    
+}
+.grid6{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.item{
+    padding: $padding-item;
+    text-align: center;
+    background: $bg-item;
+    font-size: 1.3rem;
+    color: $color-item;
+}
